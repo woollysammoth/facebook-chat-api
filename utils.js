@@ -467,7 +467,7 @@ function _formatAttachment(attachment1, attachment2) {
         mimeType: blob.content_type,
       };
     default:
-      throw new Error("unrecognized attach_file of type " + type +  "`" + JSON.stringify(attachment1, null, 4) + " attachment2: " + JSON.stringify(attachment2, null, 4) + "`");
+      //throw new Error("unrecognized attach_file of type " + type +  "`" + JSON.stringify(attachment1, null, 4) + " attachment2: " + JSON.stringify(attachment2, null, 4) + "`");
   }
 }
 
